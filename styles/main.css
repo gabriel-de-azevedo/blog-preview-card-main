@@ -40,7 +40,6 @@ h6,
 p,
 body {
   margin: 0;
-  line-height: 1.5;
 }
 
 img {
@@ -75,6 +74,7 @@ body {
   border: var(--border);
   box-shadow: var(--box-shadow);
   font-weight: var(--fw-500);
+  line-height: 1.5;
   color: var(--clr-gray-950);
 }
 
