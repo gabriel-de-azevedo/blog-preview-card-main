@@ -91,12 +91,6 @@ body {
   font-weight: var(--fw-800);
 }
 
-.article-card .title:hover,
-.article-card .title:focus {
-  color: var(--clr-yellow-400);
-  cursor: pointer;
-}
-
 .article-card .summary {
   color: var(--clr-gray-500);
 }
@@ -119,4 +113,14 @@ body {
   .article-card {
     font-size: 0.8rem;
   }
+}
+
+.article-card .title:hover,
+.article-card .title:focus,
+.article-card .author:hover,
+.article-card .author:focus,
+.article-card > img:hover,
+.article-card > img:focus {
+  color: var(--clr-yellow-400);
+  cursor: pointer;
 }
